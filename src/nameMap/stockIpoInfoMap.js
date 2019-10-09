@@ -1,0 +1,162 @@
+/* ****************************
+ * 属性配置:
+ *   type: 数据类型
+ *   cn: 中文
+ *   en: 英文
+ *   primaryKey: 主键标识
+ *   unit: 步进单位, 单位乘数
+ *   strWid: 数据类型宽度单位
+ * ***************************/
+
+module.exports = [{
+  type: 'STRING',
+  cn: '公司名称',
+  en: 'company_name_cn',
+}, {
+  type: 'STRING',
+  cn: '英文名称',
+  en: 'company_name_en',
+}, {
+  type: 'STRING',
+  cn: '证券简称',
+  en: 'company_name_alias',
+}, {
+  type: 'STRING',
+  cn: '曾用简称',
+  en: 'pre_company_name_alias',
+}, {
+  type: 'STRING',
+  cn: '证券代码',
+  en: 'stock_code',
+  primaryKey: true,
+}, {
+  type: 'DATE',
+  cn: '成立日期',
+  en: 'create_date',
+}, {
+  type: 'DATE',
+  cn: '上市日期',
+  en: 'market_date',
+}, {
+  type: 'STRING',
+  cn: '证券类别',
+  en: 'plate_type',
+}, {
+  type: 'STRING',
+  cn: '经济性质',
+  en: 'company_type',
+}, {
+  type: 'STRING',
+  cn: '法人代表',
+  en: 'legal_people',
+}, {
+  type: 'STRING',
+  cn: '总经理',
+  en: 'manager_people',
+}, {
+  type: 'STRING',
+  cn: '公司董秘',
+  en: 'contact_people',
+}, {
+  type: 'STRING',
+  cn: '董秘电话',
+  en: 'contact_phone',
+}, {
+  type: 'BIGINT',
+  cn: '注册资本',
+  en: 'regist_money',
+  unit: 10000,
+}, {
+  type: 'INTEGER',
+  cn: '公司规模',
+  en: 'workers_num',
+}, {
+  type: 'STRING',
+  cn: '关联证券',
+  en: 'about_market',
+}, {
+  type: 'STRING',
+  cn: '所属行业',
+  en: 'industry_type',
+}, {
+  type: 'STRING',
+  cn: '概念板块',
+  en: 'concept_type',
+}, {
+  type: 'STRING',
+  cn: '所属指数',
+  en: 'index_type',
+}, {
+  type: 'STRING',
+  cn: '公司网址',
+  en: 'website',
+}, {
+  type: 'STRING',
+  cn: '注册地址',
+  en: 'register_addr',
+}, {
+  type: 'STRING',
+  cn: '办公地址',
+  en: 'worker_addr',
+}, {
+  type: 'TEXT',
+  cn: '主营业务',
+  en: 'business_work',
+}, {
+  type: 'FLOAT',
+  cn: '发行价格',
+  en: 'ipo_price',
+}, {
+  type: 'BIGINT',
+  cn: '发行数量',
+  en: 'ipo_num',
+  unit: 10000,
+}, {
+  type: 'FLOAT',
+  cn: '发行面值',
+  en: 'ipo_value',
+}, {
+  type: 'FLOAT',
+  cn: '募资净额',
+  en: 'total_value',
+}, {
+  type: 'FLOAT',
+  cn: '发行市盈率',
+  en: 'ipo_pe_ratio',
+}, {
+  type: 'STRING',
+  cn: '发行方式',
+  en: 'ipo_type',
+}, {
+  type: 'FLOAT',
+  cn: '首日开盘价',
+  en: 'first_open',
+}, {
+  type: 'FLOAT',
+  cn: '首日最高价',
+  en: 'first_high',
+}, {
+  type: 'FLOAT',
+  cn: '首日涨幅',
+  en: 'first_gain',
+}, {
+  type: 'FLOAT',
+  cn: '首日换手率',
+  en: 'first_swap_ratio',
+}, {
+  type: 'STRING',
+  cn: '主承销商',
+  en: 'sell_boss',
+}, {
+  type: 'STRING',
+  cn: '保荐人',
+  en: 'sell_people',
+}, {
+  type: 'TEXT',
+  cn: '经营范围',
+  en: 'business_range',
+}, {
+  type: 'TEXT',
+  cn: '历史沿革',
+  en: 'company_history',
+}]

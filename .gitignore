@@ -1,0 +1,41 @@
+取自create-react-app
+
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+/test/e2e/reports/
+selenium-debug.log
+
+# Editor directories and files
+
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# production
+/build
+
+# uat
+/build_uat
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# other
+.~*
+~\$*
+locks/*.lock
+.env.js
+test*
+/src/logout/
